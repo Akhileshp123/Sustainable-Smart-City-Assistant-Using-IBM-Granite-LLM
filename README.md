@@ -47,18 +47,10 @@ Layer
 
 Tech Used
 
-Frontend
+Frontend   -   Streamlit
 
-Streamlit
+Backend    -   FastAPI
 
-Backend
+ML API     -   Hugging Face + IBM Granite
 
-FastAPI
-
-ML API
-
-Hugging Face + IBM Granite
-
-Hosting
-
-Localhost
+Hosting    -   Localhost
