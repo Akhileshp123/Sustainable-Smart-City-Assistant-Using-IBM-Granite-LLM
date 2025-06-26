@@ -7,7 +7,7 @@ A Streamlit-based AI-powered assistant that uses IBM Granite LLM from Hugging Fa
 - 📊 KPI Forecasting
 - ⚠️ Anomaly Detection
 - 📃 Sustainability Report Generation
-#🔧 How to Run: Sustainable Smart City Assistant Using IBM Granite LLM
+##🔧 How to Run: Sustainable Smart City Assistant Using IBM Granite LLM
 
 This guide explains how to set up and run the Smart City Assistant application on your local system. The project is divided into two parts:
 
@@ -39,7 +39,7 @@ Replace your_huggingface_token with your actual Hugging Face token.
 
 ✅ Step 1: Start Backend (FastAPI)
 
-uvicorn app.main:app --reload
+Command : uvicorn app.main:app --reload
 
 Runs at: http://127.0.0.1:8000
 
@@ -49,7 +49,7 @@ Ensure the backend is running without errors before proceeding.
 
 ✅ Step 2: Start Frontend (Streamlit)
 
-streamlit run frontend/smart_dashboard.py
+Command : streamlit run frontend/smart_dashboard.py
 
 Runs at: http://localhost:8501
 
